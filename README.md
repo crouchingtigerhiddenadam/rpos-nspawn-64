@@ -6,8 +6,8 @@ Bootable RPi4 B and RPi3 B/B+ image with 64-bit kernel, 32-bit Raspbian Buster '
 ```console
 pi@raspberrypi:~ $ sudo apt-get update && sudo apt-get install -y raspbian-nspawn-64
 ```
-> 31 Oct 2020: sadly, due to legal obligations arising from a recent change in my 'real world' job, I must announce I am **standing down as maintainer of this project with immediate effect**. For the meantime, I will leave the repo up (for historical interest, and since the Debian package is still in the official Raspbian repos); however, there will be no further updates to the underlying OS images etc., nor will I be accepting / actioning further pull requests or bug reports from this point. Email requests for support will also have to be politely declined, so, **please treat this as an effective EOL notice**.<br><br>For further details, please see my post [here](https://www.raspberrypi.org/forums/viewtopic.php?p=1750206#p1750206).<br><br>With sincere apologies, sakaki ><
 
+## History
 
 ## Description
 
@@ -355,9 +355,6 @@ However, of the three main enabling functional elements within it, viz:
 1. the Raspbian userland support components
 
 the first is now an official build (obtained via `rpi-config`), and ShiftPlusOne will hopefully be adding the other two as debs to the official repos at some point in the future.
-
-Lastly, **feedback** is welcomed! So if you have any problems, questions or comments regarding `raspbian-nspawn-64`, feel free to drop me a line! (sakaki@deciban.com)
-
 
 ## <a id="acknowledgement"></a>Acknowledgement
 
